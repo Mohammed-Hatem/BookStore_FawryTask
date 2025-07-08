@@ -3,7 +3,7 @@
 This project implements a simple Book Store backend system, focused on core bookstore operations 
 ## 🚀 Features
 
-- 📘 Book catalog management (add, update, remove, list)
+- 📘 Book catalog management 
 - 🛒 Order placement and processing
 - 📦 Inventory filtering (e.g., remove books published before 2005)
 - ✅ Robust error handling and input validation
