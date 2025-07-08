@@ -1,7 +1,6 @@
 # 📚 BookStore_FawryTask
 
-A Java-based Book Store application developed as part of a Fawry technical task.
-
+This project implements a simple Book Store backend system, focused on core bookstore operations 
 ## 🚀 Features
 
 - 📘 Book catalog management (add, update, remove, list)
