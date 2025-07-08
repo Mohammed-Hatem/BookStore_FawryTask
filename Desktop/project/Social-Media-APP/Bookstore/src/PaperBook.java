@@ -1,7 +1,7 @@
 public class PaperBook extends Book implements ShippingService{
     private int Stock;
 
-    PaperBook(String isbn, String title, String year, double price, String author, int stock) {
+    PaperBook(String isbn, String title, int year, double price, String author, int stock) {
         super(isbn, title, year, price, author);
         this.Stock = stock;
     }
@@ -38,4 +38,6 @@ public class PaperBook extends Book implements ShippingService{
             throw new IllegalStateException("Not enough stock");
 
     }
+
+
 }

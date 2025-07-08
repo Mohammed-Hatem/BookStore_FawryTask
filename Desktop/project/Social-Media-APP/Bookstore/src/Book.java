@@ -1,11 +1,11 @@
 public abstract class Book {
     private final String isbn;
     private final String title;
-    private final String year;
+    private final int year;
     private final double price;
     private final String author;
 
-    public Book(String isbn, String title, String year, double price, String author) {
+    public Book(String isbn, String title, int year, double price, String author) {
         this.isbn = isbn;
         this.title = title;
         this.year = year;
@@ -21,7 +21,7 @@ public abstract class Book {
         return title;
     }
 
-    public String getYear() {
+    public int getYear() {
         return year;
     }
 
