@@ -26,14 +26,6 @@ A Java-based Book Store application developed as part of a Fawry technical task.
 # ▶️ Run
     java -cp out Main
 
----
 
-# 🧠 Design Considerations
 
-Immutable Product objects
 
-CartItem composition for quantity tracking
-
-Separation of Invoice and Shipment logic
-
-Main method for simulation and testing
